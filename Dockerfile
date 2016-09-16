@@ -1,3 +1,3 @@
-FROM nginx
+FROM ficusio/openresty
 
-COPY conf /etc/nginx/conf.d/
+RUN mkdir /var/log/nginx/
